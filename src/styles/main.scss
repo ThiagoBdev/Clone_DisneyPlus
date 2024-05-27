@@ -3,6 +3,7 @@
 @use "shows";
 @use "plans";
 @use "available-devices";
+@use "faq";
 
 @font-face{
     font-family: Avenir;
@@ -123,4 +124,9 @@ body{
             
         }
     }
+}
+
+.text--subItem p{
+    margin-top: 24px;
+    margin-left: 16px;
 }
