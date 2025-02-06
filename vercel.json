@@ -1,0 +1,9 @@
+{
+    "builds": [
+        {
+            "src": "gulpfile.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "outputDirectory": "dist"
+}
